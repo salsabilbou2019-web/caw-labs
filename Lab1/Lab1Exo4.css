@@ -1,0 +1,27 @@
+*{/* 4.3 style the whole page*/
+    margin: 50px;
+    background-color :#e8eae8;
+    color :#5d665b;
+}
+body{/* 4.4 & 4.5 & 4.6*/
+    margin: 70px 50px 70px 120px;
+    font-family: "Verdana", "Geneva", "Arial", sans-serif;
+    font-size: small;
+    line-height: 180%;
+  }
+  h2:first-of-type{ /* 4.7 first h2 */
+    font-size: 75%;
+  }
+  p:first-of-type{/* 4.7 first p */
+    font-size: 70%;
+  }
+  p:nth-of-type(2){/* 4.7 second p*/
+text-indent: 3em;
+  }
+  h1{/* 4.8 */
+    color: #ffffdd;
+  }
+  h2{/* 4.8 */
+    color: #966b72; 
+   font-family :Georgia;
+  }

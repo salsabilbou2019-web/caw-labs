@@ -1,0 +1,61 @@
+*{ /* 1.1 font *line*/
+    font-family: (sans-serif);
+    line-height: (1.6) ;
+}
+body{ /* 1.2 background color */
+    background-color: #f4f4f4;
+}
+h1,h2{ /*1.3 centering,color */
+    text-align: center;
+    color: #336699;
+}
+p{ /*1.4 margin */
+    margin-bottom: 1em;
+}
+#special{ /*2.1 id background+padding*/
+    background-color: #fffacd;
+    padding: 10px;
+}
+.hello{ /*2.2 class color+font weight*/
+    color: #28a745;
+    font-weight: bold;
+}
+div.main-content > h2,div.ai-tools >h2 { /* 3.1 child selector */
+    text-transform: uppercase;
+}
+div.ai-tools li{ /* 3.2 descendant selector*/
+    list-style-type: square;
+}
+div.ai-tools ul{ /* 3.3 ul padding*/
+    padding-left: 20px;
+}
+input[type="text"]{ /*4.1 input element text*/
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+input[type="submit"]{ /*4.2 input element submit*/
+    background-color :#007bff;
+    color: white;
+}
+a{ /*5.1 a color*/
+    color: #007bff;
+}
+a:hover{ /*5.2 hover*/
+    text-decoration: none;
+    color: #084a90;
+}
+a:visited{ /*5.3 visited link*/
+color:#6c757d;
+}
+input:focus{ /*5.5 input focus*/
+border: 2px solid blue;
+}
+div.ai-tools li.hello{ /*6.1 descendants + class*/
+font-style: italic;
+}
+footer h2{ /*6.2 descendants + element*/
+font-size: 1.2em;
+}
+h2{ /*6.2 all element*/
+ font-size: 2em;
+}
